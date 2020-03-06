@@ -100,6 +100,7 @@ void Engine::RevertBack() // Reverting back from the leaderboards / instructions
 	{
 		m_Window.clear();
 		State = state::MENU;
+		sleep(sf::milliseconds(100));
 	}
 }
 
